@@ -1,0 +1,51 @@
+/* General page styling */
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f8f9fa;
+}
+
+/* Title Styling */
+h1 {
+    font-size: 2.5rem;
+    color: #343a40;
+    font-weight: 700;
+}
+
+/* Contact Form Styling */
+.card {
+    border-radius: 8px; /* Rounded corners */
+}
+
+.card-body {
+    padding: 2rem; /* Add padding to make form look spacious */
+}
+
+form input, form textarea {
+    border-radius: 8px;
+    border: 1px solid #ddd; /* Light border for inputs */
+    padding: 10px;
+}
+
+form button {
+    border-radius: 8px; /* Rounded button */
+}
+
+/* Sitemap Section */
+.list-group-item {
+    border-radius: 5px; /* Rounded corners for list items */
+    transition: background-color 0.3s ease;
+}
+
+.list-group-item:hover {
+    background-color: #e2e6ea; /* Highlight on hover */
+}
+
+/* Footer Styling */
+footer {
+    background-color: #f1f1f1;
+    text-align: center;
+    padding: 15px 0;
+    color: #343a40;
+    font-size: 0.875rem;
+}
+

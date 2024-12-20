@@ -1,0 +1,57 @@
+/* General page styling */
+body {
+    font-family: Arial, sans-serif;
+    background-color: plum;
+}
+
+/* Title Styling */
+h1 {
+    font-size: 2.5rem;
+    color: #343a40;
+    font-weight: 700;
+}
+
+/* Paragraph Styling */
+p {
+    font-size: 1rem;
+    color: #6c757d; /* Light grey text */
+}
+
+/* Card Styling */
+.card {
+    border: 1px solid #ddd; /* Light border around the card */
+    border-radius: 8px; /* Rounded corners */
+    transition: transform 0.3s ease, box-shadow 0.3s ease; /* Smooth transition */
+}
+
+.card:hover {
+    transform: translateY(-5px); /* Lift the card on hover */
+    box-shadow: 0 6px 12px rgba(0, 0, 0, 0.1); /* Adding subtle shadow on hover */
+}
+
+/* Card Title Styling */
+.card-title {
+    font-size: 1.25rem;
+    font-weight: 600;
+    color: #495057; /* Dark grey for the card title */
+}
+
+/* Card Text Styling */
+.card-text {
+    font-size: 1rem;
+    color: #6c757d; /* Light grey text for descriptions */
+}
+
+/* Skill Section - Grid Layout */
+.row {
+    margin-top: 30px; /* Space between title and the grid of skills */
+}
+
+/* Footer Styling */
+footer {
+    background-color: #f1f1f1;
+    text-align: center;
+    padding: 15px 0;
+    color: #343a40;
+    font-size: 0.875rem;
+}
